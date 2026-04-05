@@ -27,6 +27,10 @@ body {
   word-wrap: break-word;
 }
 
+.center-them {
+  text-align: center;
+}
+
 /* Optional: only if you want lists different later */
 p, li {
   text-align: inherit;   /* inherit center from .main */
