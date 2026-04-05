@@ -6,13 +6,6 @@ body {
   /* Color etc.  */
   background: #FFFFFF;
   color: #000000;
-
-  /* Center the .main div */
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;  /* horizontal */
-  align-items: center;      /* vertical */
-  padding: 24px 16px;
 }
 
 /* Your main content card */
@@ -22,6 +15,13 @@ body {
   margin: 0 auto;
   text-align: left;
   word-wrap: break-word;
+
+   /* Center the .main div */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;  /* horizontal */
+  align-items: center;      /* vertical */
+  padding: 24px 16px;
 }
 
 /* Optional: only if you want lists different later */
