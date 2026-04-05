@@ -1,7 +1,7 @@
 body {
   font-family: "Arial", Impact, sans-serif;
   line-height: 1.7;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 
   /* Color etc.  */
   background: #FFFFFF;
@@ -20,7 +20,7 @@ body {
 
 /* Your main content card */
 .main {
-  max-width: 640px;
+  max-width: 800;
   width: auto;
   margin: 0 auto;
   text-align: left;
