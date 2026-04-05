@@ -2,7 +2,11 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
                "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   line-height: 1.7;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.35);
+
+  /* Color etc.  */
+  background: #FFFFFF;
+  color: #000000;
 
   /* Center the .main div */
   min-height: 100vh;
@@ -16,7 +20,7 @@ body {
 .main {
   max-width: 640px;
   width: 100%;
-  text-align: center;
+  text-align: left;
   word-wrap: break-word;
 }
 
