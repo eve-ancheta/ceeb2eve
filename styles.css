@@ -1,0 +1,63 @@
+/* Global reset and base */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
+               "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: #0f172a;
+  color: #e5e7eb;
+  line-height: 1.7;
+  display: flex;
+  justify-content: center;
+  padding: 48px 16px;
+}
+
+/* Main container */
+body > * {
+  max-width: 720px;
+  width: 100%;
+}
+
+/* Optional: wrap content in a centered card if you add a main div later */
+/*
+.main {
+  background: rgba(15, 23, 42, 0.85);
+  border-radius: 18px;
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  padding: 32px 28px 36px;
+  box-shadow:
+    0 18px 45px rgba(15, 23, 42, 0.9),
+    0 0 0 1px rgba(15, 23, 42, 0.7) inset;
+  backdrop-filter: blur(18px);
+}
+*/
+
+/* Typography */
+p {
+  font-size: 16px;
+  margin-bottom: 18px;
+}
+
+p:first-of-type {
+  font-size: 26px;
+  font-weight: 650;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f97316;
+}
+
+p:nth-of-type(2) {
+  font-size: 18px;
+  font-weight: 550;
+  color: #e5e7eb;
+}
+
+/* Emphasis */
