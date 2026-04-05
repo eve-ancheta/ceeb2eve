@@ -8,6 +8,16 @@ body {
   color: #000000;
 }
 
+/* Everything that isn't the banner should be centered, etc. via this code */
+.non-banner {
+  /* Center the .main div */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;  /* horizontal */
+  align-items: center;      /* vertical */
+  padding: 24px 16px;
+}
+
 /* Your main content card */
 .main {
   max-width: 640px;
@@ -15,13 +25,6 @@ body {
   margin: 0 auto;
   text-align: left;
   word-wrap: break-word;
-
-   /* Center the .main div */
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;  /* horizontal */
-  align-items: center;      /* vertical */
-  padding: 24px 16px;
 }
 
 /* Optional: only if you want lists different later */
