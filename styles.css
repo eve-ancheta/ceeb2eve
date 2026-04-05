@@ -19,7 +19,8 @@ body {
 /* Your main content card */
 .main {
   max-width: 640px;
-  width: 100%;
+  width: auto;
+  margin: 0 auto;
   text-align: left;
   word-wrap: break-word;
 }
