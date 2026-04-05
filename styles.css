@@ -15,13 +15,13 @@ body > * {
 }
 
 /* Optional: wrap content in a centered card if you add a main div later */
-.main {
+/* .main {
   background: rgba(15, 23, 42, 0.85);
   border-radius: 18px;
   border: 1px solid rgba(148, 163, 184, 0.25);
   padding: 32px 28px 36px;
   backdrop-filter: blur(18px);
-}
+} */
 
 /* Typography */
 p {
