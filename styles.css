@@ -28,3 +28,16 @@ body {
 p, li {
   text-align: inherit;   /* inherit center from .main */
 }
+
+/* Banner container spans full width of the viewport */
+.banner {
+  width: 100vw;
+  margin: 0 calc(50% - 50vw); /* bleed edge‑to‑edge even with body padding */
+}
+
+/* FOR THE BANNER FILLING SPACE */
+.banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
