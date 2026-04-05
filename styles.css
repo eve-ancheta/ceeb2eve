@@ -1,13 +1,10 @@
-
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
                "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  background: #0f172a;
-  color: #e5e7eb;
   line-height: 1.7;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35);
 
-  /* Center everything */
+  /* Center the .main div */
   min-height: 100vh;
   display: flex;
   justify-content: center;  /* horizontal */
@@ -15,12 +12,15 @@ body {
   padding: 24px 16px;
 }
 
-body > * {
+/* Your main content card */
+.main {
   max-width: 640px;
   width: 100%;
+  text-align: center;
+  word-wrap: break-word;
 }
 
+/* Optional: only if you want lists different later */
 p, li {
-  text-align: center;   /* centers text */
-  word-wrap: break-word; /* ensures long bits still wrap */
+  text-align: inherit;   /* inherit center from .main */
 }
