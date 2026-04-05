@@ -8,9 +8,6 @@ body {
   background: #0f172a;
   color: #e5e7eb;
   line-height: 1.7;
-  display: flex;
-  justify-content: center;
-  padding: 48px 16px;
 }
 
 /* Main container */
