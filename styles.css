@@ -18,7 +18,7 @@ body {
   padding: 24px 16px;
 }
 
-/* Your main content card */
+/* MAIN STUFF */
 .main {
   max-width: 800px;
   width: auto;
@@ -26,23 +26,20 @@ body {
   text-align: left;
   word-wrap: break-word;
 }
-
 .center-them {
   text-align: center;
 }
 
-/* Optional: only if you want lists different later */
 p, li {
   text-align: inherit;   /* inherit center from .main */
 }
 
-/* Banner container spans full width of the viewport */
+
+/* BANNER STUFF */
 .banner {
   width: 100vw;
   margin: 0 calc(50% - 50vw); /* bleed edge‑to‑edge even with body padding */
 }
-
-/* FOR THE BANNER FILLING SPACE */
 .banner img {
   width: 100%;
   height: auto;
