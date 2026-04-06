@@ -1,7 +1,7 @@
 body {
   font-family: "Arial", Impact, sans-serif;
   line-height: 1.7;
-  text-shadow: 1.5px 1.5px 1.5px rgba(0, 0, 0, 0.1);
+  text-shadow: 1.5px 1.5px 3px rgba(0, 0, 0, 0.1);
 
   /* Color etc.  */
   background: #FFFFFF;
