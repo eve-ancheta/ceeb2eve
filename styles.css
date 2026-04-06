@@ -20,7 +20,7 @@ body {
 
 /* Your main content card */
 .main {
-  max-width: 800;
+  max-width: 800px;
   width: auto;
   margin: 0 auto;
   text-align: left;
