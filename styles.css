@@ -45,3 +45,14 @@ p, li {
   height: auto;
   display: block;
 }
+
+/* CHANGE HYPERLINK STYLES */
+/* before click (unvisited) */
+a:link {
+  color: #737F75;
+}
+
+/* after click (visited) */
+a:visited {
+  color: #BB4C57;
+}
