@@ -30,6 +30,9 @@ body {
   text-align: center;
 }
 
+p {
+  margin-bottom: 0.75em;
+}
 p, li {
   text-align: inherit;   /* inherit center from .main */
 }
