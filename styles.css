@@ -36,14 +36,25 @@ p, li {
 
 
 /* BANNER STUFF */
-.banner {
+/* .banner {
   width: 100vw;
   margin: 0 calc(50% - 50vw); /* bleed edge‑to‑edge even with body padding */
-}
+/* }
 .banner img {
   width: 100%;
   height: auto;
   display: block;
+} */
+.banner {
+  width: 100%;         /* stretch across screen */
+  overflow: hidden;    /* hide any overflow */
+}
+
+.banner img {
+  width: 100%;         /* always span full width */
+  height: 200px;       /* adjust this to change how 'small' the banner is */
+  object-fit: cover;   /* crop instead of squish */
+  display: block;      /* remove small gaps in some browsers */
 }
 
 /* CHANGE HYPERLINK STYLES */
