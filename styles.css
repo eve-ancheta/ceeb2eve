@@ -52,7 +52,7 @@ p, li {
 
 .banner img {
   width: 100%;         /* always span full width */
-  height: 150px;       /* adjust this to change how 'small' the banner is */
+  height: 300px;       /* adjust this to change how 'small' the banner is */
   object-fit: cover;   /* crop instead of squish */
   display: block;      /* remove small gaps in some browsers */
 }
